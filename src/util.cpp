@@ -89,8 +89,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "qtumx.conf";
-const char * const BITCOIN_PID_FILENAME = "qtumxd.pid";
+const char * const BITCOIN_CONF_FILENAME = "unita.conf";
+const char * const BITCOIN_PID_FILENAME = "unitad.pid";
 const char * const DEFAULT_DEBUGLOGFILE = "debug.log";
 const char * const DEFAULT_DEBUGVMLOGFILE = "vm.log";
 
@@ -622,13 +622,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\QtumX
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\QtumX
-    // Mac: ~/Library/Application Support/QtumX
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Unita
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Unita
+    // Mac: ~/Library/Application Support/Unita
     // Unix: ~/.qtum
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "QtumXBeta";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Unita";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -638,10 +638,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/QtumXBeta";
+    return pathRet / "Library/Application Support/Unita";
 #else
     // Unix
-    return pathRet / ".qtumxbeta";
+    return pathRet / ".unita";
 #endif
 #endif
 }
@@ -708,7 +708,7 @@ fs::path GetRemoteConfigFile(const std::string& chainId) {
     }
 
     // download conf file from https://qtumx.net/chain/{chainId}.conf
-    static const std::string host = "qtumx.net";
+    static const std::string host = "unita.network";
     std::string path = "/chain/" + chainId + ".conf";
     std::string url = "https://" + host + path;
     fprintf(stdout, "Start blockchain %s with configuration: %s\n",
@@ -841,7 +841,7 @@ bool CheckChainId(const std::string& chainId) {
 }
 
 void ArgsManager::ReadRemoteConfigFile(const std::string& chainId) {
-    std::string cId = chainId.empty() ? "qtumx" : chainId;
+    std::string cId = chainId.empty() ? "unita" : chainId;
     gArgs.ForceSetArg("-chain", cId);
 
     if (!CheckChainId(cId)) {
@@ -1156,8 +1156,8 @@ std::string CopyrightHolders(const std::string& strPrefix)
     std::string strCopyrightHolders = strPrefix + strprintf(_(COPYRIGHT_HOLDERS), _(COPYRIGHT_HOLDERS_SUBSTITUTION));
 
     // Check for untranslated substitution to make sure Bitcoin Core copyright is not removed by accident
-    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("QtumX Core") == std::string::npos) {
-        strCopyrightHolders += "\n" + strPrefix + "The QtumX Core developers";
+    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Unita Core") == std::string::npos) {
+        strCopyrightHolders += "\n" + strPrefix + "The Unita Core developers";
     }
     return strCopyrightHolders;
 }
