@@ -640,7 +640,6 @@ void CleanupBlockRevFiles()
     }
 }
 
-
 void ThreadImport(std::vector<fs::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
