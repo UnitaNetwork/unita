@@ -538,7 +538,7 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/UnitaNetwork>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/UnitaNetwork/unita>";
     const std::string URL_WEBSITE = "<https://unita.network>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i"), COPYRIGHT_YEAR) + " ") + "\n" +
