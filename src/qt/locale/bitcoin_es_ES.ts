@@ -62,12 +62,12 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones QtumX para enviar pagos. Verifique siempre la cantidad y la dirección de recibimiento antes de enviar monedas.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Unita para enviar pagos. Verifique siempre la cantidad y la dirección de recibimiento antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones QtumX para recibir pagos. Se recomienda utilizar una nueva dirección de recibimiento para cada transacción</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones Unita para recibir pagos. Se recomienda utilizar una nueva dirección de recibimiento para cada transacción</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -338,8 +338,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Enviar qtums a una dirección QtumX</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Enviar qtums a una dirección Unita</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones QtumX para demostrar la propiedad</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Unita para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones QtumX concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Unita concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "qtumx:")</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "unita:")</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Abrir un identificador URI "qtumx:" o una petición de pago</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Abrir un identificador URI "unita:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to QtumX network</source>
-        <translation><numerusform>%n conexión activa hacia la red QtumX</numerusform><numerusform>%n conexiones activas hacia la red QtumX</numerusform></translation>
+        <source>%n active connection(s) to Unita network</source>
+        <translation><numerusform>%n conexión activa hacia la red Unita</numerusform><numerusform>%n conexiones activas hacia la red Unita</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,8 +478,8 @@
         <translation>Actualizado</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de linea de comandos de QtumX</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de linea de comandos de Unita</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +548,8 @@
         <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error fatal. QtumX no puede continuar de manera segura y se cerrará.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error fatal. Unita no puede continuar de manera segura y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -742,8 +742,8 @@
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid QtumX address.</source>
-        <translation>La dirección introducida "%1" no es una dirección QtumX válida.</translation>
+        <source>The entered address "%1" is not a valid Unita address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Unita válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -859,8 +859,8 @@
         <translation>Utilizar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1032,16 +1032,16 @@
         <translation>&amp;Gastar cambio no confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente QtumX en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Unita en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear el puerto mediante &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a SOCKS5 proxy.</source>
-        <translation>Conectarse a la red QtumX a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Unita network through a SOCKS5 proxy.</source>
+        <translation>Conectarse a la red Unita a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1076,8 +1076,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red QtumX mediante un proxy SOCKS5 por separado para los servicios ocultos de Tor.</translation>
+        <source>Connect to the Unita network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red Unita mediante un proxy SOCKS5 por separado para los servicios ocultos de Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1171,8 +1171,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red QtumX después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Unita después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1246,8 +1246,8 @@
         <translation>Fallo en la solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start qtumx: click-to-pay handler</source>
-        <translation>No se puede iniciar qtumx: encargado click-para-pagar</translation>
+        <source>Cannot start unita: click-to-pay handler</source>
+        <translation>No se puede iniciar unita: encargado click-para-pagar</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1262,8 +1262,8 @@
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid QtumX address or malformed URI parameters.</source>
-        <translation>URI no puede ser analizado! Esto puede ser causado por una dirección QtumX inválida o parametros URI mal formados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Unita address or malformed URI parameters.</source>
+        <translation>URI no puede ser analizado! Esto puede ser causado por una dirección Unita inválida o parametros URI mal formados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1364,8 +1364,8 @@
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a QtumX address (e.g. %1)</source>
-        <translation>Introducir una dirección QtumX (p. ej. %1)</translation>
+        <source>Enter a Unita address (e.g. %1)</source>
+        <translation>Introducir una dirección Unita (p. ej. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1744,8 +1744,8 @@
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the QtumX network.</source>
-        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red QtumX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unita network.</source>
+        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Unita.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1974,7 +1974,7 @@
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for qtum transactions than the network can process.</source>
-        <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones QtumX que la red pueda procesar.</translation>
+        <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones Unita que la red pueda procesar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2121,8 +2121,8 @@
         <translation>Pagar únicamente la cuota solicitada de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid QtumX address</source>
-        <translation>Alerta: dirección QtumX inválida</translation>
+        <source>Warning: Invalid Unita address</source>
+        <translation>Alerta: dirección Unita inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2164,8 +2164,8 @@
         <translation>Esto es un pago ordinario.</translation>
     </message>
     <message>
-        <source>The QtumX address to send the payment to</source>
-        <translation>Dirección QtumX a la que enviar el pago</translation>
+        <source>The Unita address to send the payment to</source>
+        <translation>Dirección Unita a la que enviar el pago</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2208,8 +2208,8 @@
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the qtumx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the QtumX network.</source>
-        <translation>Un mensaje que se adjuntó a la qtumx: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red QtumX.</translation>
+        <source>A message that was attached to the unita: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unita network.</source>
+        <translation>Un mensaje que se adjuntó a la unita: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Unita.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2257,8 +2257,8 @@
         <translation>Puede firmar los mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa de manera vaga o aleatoria, pues los ataques de phishing pueden tratar de engañarle firmando su identidad a través de ellos. Sólo firme declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The QtumX address to sign the message with</source>
-        <translation>Dirección QtumX con la que firmar el mensaje</translation>
+        <source>The Unita address to sign the message with</source>
+        <translation>Dirección Unita con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2289,8 +2289,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección QtumX</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Unita</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2313,12 +2313,12 @@
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle. </translation>
     </message>
     <message>
-        <source>The QtumX address the message was signed with</source>
-        <translation>La dirección QtumX con la que se firmó el mensaje</translation>
+        <source>The Unita address the message was signed with</source>
+        <translation>La dirección Unita con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified QtumX address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección QtumX indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Unita address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Unita indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2888,7 +2888,7 @@
     </message>
 </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -2949,8 +2949,8 @@
         <translation>No se ha podido comenzar el servidor HTTP. Ver debug log para detalles.</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

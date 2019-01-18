@@ -74,7 +74,7 @@ class CBasePoaParams : public CBaseChainParams
 public:
     CBasePoaParams()
     {
-        nRPCPort = 13889;
+        nRPCPort = 23889;
         strDataDir = "chain_" + gArgs.GetArg("-chain", "");
     }
 };

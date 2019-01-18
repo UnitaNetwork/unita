@@ -770,7 +770,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!IsValidDestination(dest)) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid QtumX address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Unita address"));
         }
         else // Valid address
         {

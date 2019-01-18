@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -302,9 +302,9 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
-        <location filename="../QtumXGUI.cpp" line="+358"/>
+        <location filename="../UnitaGUI.cpp" line="+358"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -435,8 +435,8 @@
     </message>
     <message>
         <location line="-511"/>
-        <source>Send coins to a QtumX address</source>
-        <translation>Send coins to a QtumX address</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Send coins to a Unita address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -465,8 +465,8 @@
     </message>
     <message>
         <location line="+517"/>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -500,13 +500,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Sign messages with your QtumX addresses to prove you own them</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Sign messages with your Unita addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verify messages to ensure they were signed with specified QtumX addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Unita addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -530,7 +530,7 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -545,7 +545,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a qtumx: URI or payment request</source>
+        <source>Open a unita: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -555,10 +555,10 @@
     </message>
     <message numerus="yes">
         <location line="+357"/>
-        <source>%n active connection(s) to QtumX network</source>
+        <source>%n active connection(s) to Unita network</source>
         <translation>
-            <numerusform>%n active connection to QtumX network</numerusform>
-            <numerusform>%n active connections to QtumX network</numerusform>
+            <numerusform>%n active connection to Unita network</numerusform>
+            <numerusform>%n active connections to Unita network</numerusform>
         </translation>
     </message>
     <message>
@@ -616,7 +616,7 @@
     </message>
     <message>
         <location line="-441"/>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -696,7 +696,7 @@
     </message>
     <message>
         <location filename="../qtum.cpp" line="+534"/>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -939,7 +939,7 @@
     </message>
     <message>
         <location line="+72"/>
-        <source>The entered address &quot;%1&quot; is not a valid QtumX address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Unita address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1099,8 +1099,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+20"/>
-        <source>QtumX</source>
-        <translation type="unfinished">QtumX</translation>
+        <source>Unita</source>
+        <translation type="unfinished">Unita</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1114,7 +1114,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>%1 will download and store a copy of the QtumX block chain.</source>
+        <source>%1 will download and store a copy of the Unita block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1401,7 +1401,7 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the QtumX network through a SOCKS5 proxy.</source>
+        <source>Connect to the Unita network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1449,7 +1449,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the QtumX network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Unita network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1584,8 +1584,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1682,7 +1682,7 @@
     </message>
     <message>
         <location line="-398"/>
-        <source>Cannot start qtumx: click-to-pay handler</source>
+        <source>Cannot start unita: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1704,7 +1704,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid QtumX address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Unita address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1836,7 +1836,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+130"/>
-        <source>Enter a QtumX address (e.g. %1)</source>
+        <source>Enter a Unita address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2422,7 +2422,7 @@
     <message>
         <location line="-3"/>
         <location line="+46"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the QtumX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unita network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2951,7 +2951,7 @@
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid QtumX address</source>
+        <source>Warning: Invalid Unita address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3006,7 +3006,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The QtumX address to send the payment to</source>
+        <source>The Unita address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3068,7 +3068,7 @@
     </message>
     <message>
         <location line="+54"/>
-        <source>A message that was attached to the qtumx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the QtumX network.</source>
+        <source>A message that was attached to the unita: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unita network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3130,7 +3130,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>The QtumX address to sign the message with</source>
+        <source>The Unita address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3172,8 +3172,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>Sign the message to prove you own this QtumX address</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>Sign the message to prove you own this Unita address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3203,13 +3203,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The QtumX address the message was signed with</source>
+        <source>The Unita address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified QtumX address</source>
-        <translation>Verify the message to ensure it was signed with the specified QtumX address</translation>
+        <source>Verify the message to ensure it was signed with the specified Unita address</source>
+        <translation>Verify the message to ensure it was signed with the specified Unita address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3911,7 +3911,7 @@
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../QtumXGUI.cpp" line="+129"/>
+        <location filename="../UnitaGUI.cpp" line="+129"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4023,7 +4023,7 @@
     </message>
 </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <location filename="../qtumstrings.cpp" line="+351"/>
         <source>Options:</source>
@@ -4101,8 +4101,8 @@
     </message>
     <message>
         <location line="-397"/>
-        <source>QtumX Core</source>
-        <translation type="unfinished">QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation type="unfinished">Unita Core</translation>
     </message>
     <message>
         <location line="+1"/>

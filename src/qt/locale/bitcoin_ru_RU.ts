@@ -62,11 +62,11 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Это ваши биткойн адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Это ваши биткойн адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Подписать &amp;сообщение...</translation>
@@ -306,7 +306,7 @@
         <translation>Реиндексация блоков на диске...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
+        <source>Send coins to a Unita address</source>
         <translation>Послать средства на биткойн адрес</translation>
     </message>
     <message>
@@ -322,8 +322,8 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX Core</translation>
+        <source>Unita</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -481,8 +481,8 @@
         <translation>Добро пожаловать в %1.</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX Core</translation>
+        <source>Unita</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -542,8 +542,8 @@
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети QtumX через SOCKS5 прокси.</translation>
+        <source>Connect to the Unita network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Unita через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -630,8 +630,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a QtumX address (e.g. %1)</source>
-        <translation>Введите QtumX адрес (напр. %1)</translation>
+        <source>Enter a Unita address (e.g. %1)</source>
+        <translation>Введите Unita адрес (напр. %1)</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -922,14 +922,14 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>qtumx-core</translation>
+        <translation>unita-core</translation>
     </message>
     <message>
         <source>Information</source>
