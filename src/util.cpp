@@ -707,8 +707,8 @@ fs::path GetRemoteConfigFile(const std::string& chainId) {
         return localPath;
     }
 
-    // download conf file from https://qtumx.net/chain/{chainId}.conf
-    static const std::string host = "unita.network";
+    // download conf file from https://chain.unita.network/chain/{chainId}.conf
+    static const std::string host = "chain.unita.network";
     std::string path = "/chain/" + chainId + ".conf";
     std::string url = "https://" + host + path;
     fprintf(stdout, "Start blockchain %s with configuration: %s\n",
