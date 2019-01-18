@@ -62,12 +62,12 @@
         <translation>Adresa na koju se prima</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su Vaše QtumX adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su Vaše Unita adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su Vaše QtumX adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su Vaše Unita adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Potpišite &amp;poruka...</translation>
@@ -338,8 +338,8 @@
         <translation>Ponovo obeležavam blokove na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Pošalji novčiće na QtumX adresu</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Pošalji novčiće na Unita adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Enkriptuj privatne ključeve novčanika</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Potpišite poruke sa svojim QtumX adresama da biste dokazali njihovo vlasništvo</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Potpišite poruke sa svojim Unita adresama da biste dokazali njihovo vlasništvo</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Proverite poruke da biste utvrdili sa kojim QtumX adresama su potpisane</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Proverite poruke da biste utvrdili sa kojim Unita adresama su potpisane</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Alatke za tabove</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Zatražite plaćanje (generiše QR kodove i qtumx: URI-e)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Zatražite plaćanje (generiše QR kodove i unita: URI-e)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -519,8 +519,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -684,10 +684,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>Information</source>

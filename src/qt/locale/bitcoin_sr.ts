@@ -84,7 +84,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Синхронизација са мрежом у току...</translation>
@@ -138,7 +138,7 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
+        <source>Send coins to a Unita address</source>
         <translation>Пошаљите новац на qtum адресу</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcije</translation>

@@ -64,7 +64,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;Mensaje...</translation>
@@ -142,7 +142,7 @@
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
+        <source>Send coins to a Unita address</source>
         <translation>Enviar monedas a una dirección qtum</translation>
     </message>
     <message>
@@ -166,8 +166,8 @@
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -186,7 +186,7 @@
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -206,8 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and qtumx: URls)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and unita: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -318,8 +318,8 @@
         <translation>bienvenido</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -367,8 +367,8 @@
         <translation>experto</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente QtumX en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Unita en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -691,7 +691,7 @@
         <translation>Firma</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
+        <source>Sign the message to prove you own this Unita address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -754,7 +754,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -776,7 +776,7 @@
 </translation>
     </message>
     <message>
-        <source>QtumX Core</source>
+        <source>Unita Core</source>
         <translation>qtum core</translation>
     </message>
     <message>

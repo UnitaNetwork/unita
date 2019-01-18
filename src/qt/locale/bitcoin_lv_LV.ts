@@ -124,7 +124,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Parakstīt &amp;ziņojumu...</translation>
@@ -202,8 +202,8 @@
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Nosūtīt bitkoinus uz QtumX adresi</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Nosūtīt bitkoinus uz Unita adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -226,8 +226,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -254,12 +254,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām QtumX adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Unita adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām QtumX adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Unita adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -278,11 +278,11 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un qtumx: URIs)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un unita: URIs)</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
+        <source>Open a unita: URI or payment request</source>
         <translation>Atvērt qtum URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
@@ -465,8 +465,8 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -566,8 +566,8 @@
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt QtumX klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Unita klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -619,7 +619,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt QtumX kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt Unita kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -657,8 +657,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar QtumX tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Unita tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -920,7 +920,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>QtumX Kontroles Funkcijas</translation>
+        <translation>Unita Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1099,8 +1099,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs QtumX adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Unita adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1190,7 +1190,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Iespējas:</translation>
@@ -1216,8 +1216,8 @@
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

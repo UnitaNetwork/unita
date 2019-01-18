@@ -12,7 +12,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Error</source>
         <translation>错误</translation>
@@ -111,7 +111,7 @@
         <translation>仅支付全额的%1</translation>
     </message>
     <message>
-        <source>Warning: Invalid QtumX address</source>
+        <source>Warning: Invalid Unita address</source>
         <translation>警告：QTUM地址无效</translation>
     </message>
     </context>
@@ -170,7 +170,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Transaction too large for fee policy</source>
         <translation>根据费率标准，本次转账超额</translation>

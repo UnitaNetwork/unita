@@ -88,10 +88,10 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន QtumX មួយ</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Unita មួយ</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -210,6 +210,6 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     </context>
 </TS>

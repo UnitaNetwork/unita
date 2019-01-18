@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les vostres adreces de QtumX per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les vostres adreces de Unita per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les vostres adreces QtumX per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les vostres adreces Unita per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signa el &amp;missatge...</translation>
@@ -338,8 +338,8 @@
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Envia monedes a una adreça QtumX</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Envia monedes a una adreça Unita</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de QtumX per provar que les poseeixes</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de Unita per provar que les poseeixes</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça QtumX específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Unita específica.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i qtumx: URI)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Sol·licita pagaments (genera codis QR i unita: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Mostra la llista d'adreces de recepció i etiquetes utilitzades</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Obre una qtumx: sol·licitud d'URI o pagament</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Obre una unita: sol·licitud d'URI o pagament</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -470,8 +470,8 @@
         <translation>Al dia</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de QtumX</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de Unita</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -540,8 +540,8 @@
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>S'ha produït un error fatal. QtumX no pot continuar amb seguretat i finalitzarà.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>S'ha produït un error fatal. Unita no pot continuar amb seguretat i finalitzarà.</translation>
     </message>
 </context>
 <context>
@@ -734,8 +734,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid QtumX address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de QtumX vàlida.</translation>
+        <source>The entered address "%1" is not a valid Unita address.</source>
+        <translation>L'adreça introduïda «%1» no és una adreça de Unita vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,8 +851,8 @@
         <translation>Utilitza un directori de dades personalitzat:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
@@ -1016,16 +1016,16 @@
         <translation>&amp;Gasta el canvi sense confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obre el port del client de QtumX al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obre el port del client de Unita al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port obert amb &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a SOCKS5 proxy.</source>
-        <translation>Connecta a la xarxa QtumX a través d'un proxy SOCKS5.</translation>
+        <source>Connect to the Unita network through a SOCKS5 proxy.</source>
+        <translation>Connecta a la xarxa Unita a través d'un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1060,8 +1060,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red de QtumX a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
+        <source>Connect to the Unita network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red de Unita a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1159,8 +1159,8 @@
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa QtumX un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Unita un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1234,8 +1234,8 @@
         <translation>Error de la sol·licitud de pagament</translation>
     </message>
     <message>
-        <source>Cannot start qtumx: click-to-pay handler</source>
-        <translation>No es pot iniciar qtumx: controlador click-to-pay</translation>
+        <source>Cannot start unita: click-to-pay handler</source>
+        <translation>No es pot iniciar unita: controlador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1250,8 +1250,8 @@
         <translation>Adreça de pagament no vàlida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid QtumX address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de QtumX no vàlida o per paràmetres URI amb mal format.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Unita address or malformed URI parameters.</source>
+        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Unita no vàlida o per paràmetres URI amb mal format.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1344,8 +1344,8 @@
         <translation>Import</translation>
     </message>
     <message>
-        <source>Enter a QtumX address (e.g. %1)</source>
-        <translation>Introduïu una adreça de QtumX (p. ex. %1)</translation>
+        <source>Enter a Unita address (e.g. %1)</source>
+        <translation>Introduïu una adreça de Unita (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1684,8 +1684,8 @@
         <translation>&amp;Missatge:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the QtumX network.</source>
-        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa QtumX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unita network.</source>
+        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Unita.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2053,8 +2053,8 @@
         <translation>Paga només la comissió necessària de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid QtumX address</source>
-        <translation>Avís: adreça QtumX no vàlida</translation>
+        <source>Warning: Invalid Unita address</source>
+        <translation>Avís: adreça Unita no vàlida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2088,8 +2088,8 @@
         <translation>Això és un pagament normal.</translation>
     </message>
     <message>
-        <source>The QtumX address to send the payment to</source>
-        <translation>L'adreça QtumX on enviar el pagament</translation>
+        <source>The Unita address to send the payment to</source>
+        <translation>L'adreça Unita on enviar el pagament</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2132,8 +2132,8 @@
         <translation>Introduïu una etiqueta per a aquesta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the qtumx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the QtumX network.</source>
-        <translation>Un missatge que s'ha adjuntat al qtumx: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa QtumX.</translation>
+        <source>A message that was attached to the unita: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unita network.</source>
+        <translation>Un missatge que s'ha adjuntat al unita: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Unita.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2177,8 +2177,8 @@
         <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les qtums que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
     </message>
     <message>
-        <source>The QtumX address to sign the message with</source>
-        <translation>L'adreça QtumX amb què signar el missatge</translation>
+        <source>The Unita address to sign the message with</source>
+        <translation>L'adreça Unita amb què signar el missatge</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2209,8 +2209,8 @@
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça QtumX</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Unita</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2233,12 +2233,12 @@
         <translation>Introduïu l'adreça del receptor, el missatge (assegureu-vos de copiar els salts de línia, espais, tabuladors, etc. exactament) i signatura de sota per verificar el missatge. Tingueu cura de no llegir més en la signatura del que està al missatge signat, per evitar ser enganyat per un atac d'home-en-el-mig. Tingueu en compte que això només demostra que la part que signa rep amb l'adreça, i no es pot provar l'enviament de qualsevol transacció!</translation>
     </message>
     <message>
-        <source>The QtumX address the message was signed with</source>
-        <translation>L'adreça QtumX amb què va ser signat el missatge</translation>
+        <source>The Unita address the message was signed with</source>
+        <translation>L'adreça Unita amb què va ser signat el missatge</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified QtumX address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça QtumX específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Unita address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Unita específica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2780,7 +2780,7 @@
     </message>
 </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcions:</translation>
@@ -2838,8 +2838,8 @@
         <translation>No s'ha pogut iniciar el servidor HTTP. Vegeu debug.log per a més detalls.</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

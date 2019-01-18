@@ -62,12 +62,12 @@
         <translation>Indirizzi riceventi</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i suoi indirizzi QtumX per ricevere i pagamenti. Controlla sempre l'importo e gli indirizzi prima di inviare i coins.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i suoi indirizzi Unita per ricevere i pagamenti. Controlla sempre l'importo e gli indirizzi prima di inviare i coins.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi QtumX per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo per ogni transazione.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi Unita per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firma &amp;messaggio...</translation>
@@ -338,7 +338,7 @@
         <translation>Reindicizzazione dei blocchi sul disco...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
+        <source>Send coins to a Unita address</source>
         <translation>Invia monete ad un indirizzo Qtum...</translation>
     </message>
     <message>
@@ -362,8 +362,8 @@
         <translation>Verifica messaggio...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Cripta le chiavi private che appartengono al tuo portafoglio</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi QtumX per provare che li possiedi</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Firma messaggi con i tuoi indirizzi Unita per provare che li possiedi</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verifica messaggi per accertarti che siano firmati dagli indirizzi QtumX specificati</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verifica messaggi per accertarti che siano firmati dagli indirizzi Unita specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Barra degli strumenti</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e qtumx: URI)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e unita: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Mostra la lista degli indirizzi di ricezione usati e le relative etichette</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Apri un qtumx: URI o una richiesta di pagamento</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Apri un unita: URI o una richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -470,8 +470,8 @@
         <translation>Aggiornato</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>Mostra il %1 messaggio d'aiuto per ottenere una lista con le possibili opzioni per la riga di comando di QtumX</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>Mostra il %1 messaggio d'aiuto per ottenere una lista con le possibili opzioni per la riga di comando di Unita</translation>
     </message>
     <message>
         <source>Date: %1
@@ -512,8 +512,8 @@
         <translation>Transazione in arrivo</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore fatale. QtumX non può continuare in maniera sicura e sarà chiuso.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore fatale. Unita non può continuare in maniera sicura e sarà chiuso.</translation>
     </message>
 </context>
 <context>
@@ -690,8 +690,8 @@
         <translation>Modifica l'indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid QtumX address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo QtumX valido.</translation>
+        <source>The entered address "%1" is not a valid Unita address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo Unita valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -763,8 +763,8 @@
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1056,7 +1056,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Information</source>
         <translation>Informazione</translation>

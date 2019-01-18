@@ -62,12 +62,12 @@
         <translation>Ontvangstadres</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw QtumX adressen voor het versturen van betalingen. Controleer altijd het bedrag en het ontvangstadres voordat u munten verstuurd.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Unita adressen voor het versturen van betalingen. Controleer altijd het bedrag en het ontvangstadres voordat u munten verstuurd.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw QtumX adressen voor het ontvangen van betalingen. Het wordt aanbevolen om voor elke transactie een nieuw ontvangstadres te gebruiken.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Unita adressen voor het ontvangen van betalingen. Het wordt aanbevolen om voor elke transactie een nieuw ontvangstadres te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signeer &amp;bericht</translation>
@@ -338,8 +338,8 @@
         <translation>Blokken op schijf herindexeren...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Verstuur coins naar een QtumX adres</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Verstuur coins naar een Unita adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Bericht verifiëren</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Versleutel de privé sleutels die bij je portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Signeer berichten met je QtumX adres om te bewijzen dat ze van jou zijn</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Signeer berichten met je Unita adres om te bewijzen dat ze van jou zijn</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verifieer berichten om er zeker van te zijn dat ze met specifieke QtumX adressen ondertekent zijn</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verifieer berichten om er zeker van te zijn dat ze met specifieke Unita adressen ondertekent zijn</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Tabs taakbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Betalingen aanvragen (genereert QR codes en qtumx: URI's)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Betalingen aanvragen (genereert QR codes en unita: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Toon de lijst van gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Open een qtumx: URI of betaalverzoek</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Open een unita: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -470,8 +470,8 @@
         <translation>Up to date</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>Open het %1 help bericht om een lijst met QtumX commando-regel opties te krijgen</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>Open het %1 help bericht om een lijst met Unita commando-regel opties te krijgen</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -540,8 +540,8 @@
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; op dit moment &lt;b&gt;vergrendeld&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>Een fatale error is voorgekomen. QtumX kan niet langer veilig verder gaan en sluit daardoor af.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>Een fatale error is voorgekomen. Unita kan niet langer veilig verder gaan en sluit daardoor af.</translation>
     </message>
 </context>
 <context>
@@ -691,8 +691,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -956,7 +956,7 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Information</source>
         <translation>Informatie</translation>

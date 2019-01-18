@@ -62,12 +62,12 @@
         <translation>Adresy do odbierania</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są Twoje adresy QtumX do wysyłania płatności. Zawsze sprawdzaj kwotę oraz adres odbioru zanim prześlesz monety.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są Twoje adresy Unita do wysyłania płatności. Zawsze sprawdzaj kwotę oraz adres odbioru zanim prześlesz monety.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są Twoje adresy QtumX do otrzymywania płatności. Zalecane jest używać nowego adresu do każdej transakcji. </translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są Twoje adresy Unita do otrzymywania płatności. Zalecane jest używać nowego adresu do każdej transakcji. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Stopka</translation>
@@ -338,8 +338,8 @@
         <translation>Reindeksowanie bloków na dysku...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Wyślij monety na adres QtumX</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Wyślij monety na adres Unita</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Zweryfikuj wiadomość...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Zaszyfruj prywatne klucze które należą do Twojego portfela</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Podpisz wiadomość z Twoimi adresami QtumX żeby udowodnić że je posiadasz</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Podpisz wiadomość z Twoimi adresami Unita żeby udowodnić że je posiadasz</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Zweryfikuj wiadomość żeby się upewnić że zostały podpisane ze specyficznym adresem QtumX</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Zweryfikuj wiadomość żeby się upewnić że zostały podpisane ze specyficznym adresem Unita</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Zażądaj płatności (generuje kod QR oraz qtumx: URls)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Zażądaj płatności (generuje kod QR oraz unita: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Pokaż liste użytych adresów do odbioru oraz ich etykiety</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Otwórz qtumx: URl lub żądanie płatności</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Otwórz unita: URl lub żądanie płatności</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -653,8 +653,8 @@
         <translation>Użyj wybranego katalogu danych:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -665,7 +665,7 @@
         <translation>W przybliżeniu %1 GB danych będzie przechowywanych w tym katalogu. </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the QtumX block chain.</source>
+        <source>%1 will download and store a copy of the Unita block chain.</source>
         <translation>%1 ściągnie i przechowa kopie łańcucha bloków Qtum.</translation>
     </message>
     <message>
@@ -1686,7 +1686,7 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Loading banlist...</source>
         <translation>Ładuję banlistę...</translation>

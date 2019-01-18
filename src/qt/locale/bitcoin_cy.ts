@@ -62,12 +62,12 @@
         <translation>Derbyn cyfeiriadau</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Rhain ydi eich cyfeiriadau QtumX ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Rhain ydi eich cyfeiriadau Unita ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dyma eich cyfeiriadau QtumX ar gyfer derbyn taliadau. Argymhellwn ddefnyddio cyfeiriad derbyn newydd ar gyfer bob trafodyn.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dyma eich cyfeiriadau Unita ar gyfer derbyn taliadau. Argymhellwn ddefnyddio cyfeiriad derbyn newydd ar gyfer bob trafodyn.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -228,7 +228,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Arwyddo &amp;neges...</translation>
@@ -334,8 +334,8 @@
         <translation>Ailfynegi y blociau ar ddisg...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Anfon arian i gyfeiriad QtumX</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Anfon arian i gyfeiriad Unita</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -354,8 +354,8 @@
         <translation>&amp;Gwirio neges...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -382,12 +382,12 @@
         <translation>Amgryptio'r allweddi preifat sy'n perthyn i'ch waled</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Arwyddo negeseuon gyda eich cyfeiriadau QtumX i brofi mae chi sy'n berchen arnynt</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Arwyddo negeseuon gyda eich cyfeiriadau Unita i brofi mae chi sy'n berchen arnynt</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau QtumX penodol</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau Unita penodol</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +406,8 @@
         <translation>Bar offer tabiau</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Gofyn taliadau (creu côd QR a qtumx: URIs)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Gofyn taliadau (creu côd QR a unita: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,8 +418,8 @@
         <translation>Dangos rhestr o gyfeiriadau derbyn a labelau wedi eu defnyddio</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Agor qtumx: URI neu ofyn taliad</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Agor unita: URI neu ofyn taliad</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -524,8 +524,8 @@
         <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>Mae gwall angheuol wedi digwydd. Ni all QtumX barhau'n ddiogel ac mae'n cau lawr.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>Mae gwall angheuol wedi digwydd. Ni all Unita barhau'n ddiogel ac mae'n cau lawr.</translation>
     </message>
 </context>
 <context>
@@ -635,8 +635,8 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1036,14 +1036,14 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>Craidd QtumX</translation>
+        <source>Unita Core</source>
+        <translation>Craidd Unita</translation>
     </message>
     <message>
         <source>Information</source>

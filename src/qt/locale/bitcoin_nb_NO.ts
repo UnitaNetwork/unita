@@ -62,12 +62,12 @@
         <translation>Mottager adresser</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine QtumX adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dette er dine Unita adresser for å sende  å sende betalinger. Husk å sjekke beløp og mottager adresser før du sender mynter.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine QtumX adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Unita adresse for å motta betalinger. Det er anbefalt å bruke en ny mottager adresse for hver transaksjon.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer &amp;melding</translation>
@@ -338,8 +338,8 @@
         <translation>Reindekserer blokker på disken</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Send mynter til en QtumX adresse</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Send mynter til en Unita adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Verifiser meldingen...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Signer meldingene med QtumX adresse for å bevise at diu eier dem</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Signer meldingene med Unita adresse for å bevise at diu eier dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt QtumX adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verifiser meldinger for å sikre at de ble signert med en angitt Unita adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,7 +414,7 @@
         <translation>Hjelpelinje for fliker</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
         <translation>Be om betalinger (genererer QR-koder og qtum-URIer)</translation>
     </message>
     <message>
@@ -426,8 +426,8 @@
         <translation>Vis lista over brukte mottakeradresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Åpne en qtumx: URI eller betalingsforespørsel</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Åpne en unita: URI eller betalingsforespørsel</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -466,8 +466,8 @@
         <translation>Oppdatert</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige QtumX-kommandolinjealternativer</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>Vis %1-hjelpemeldingen for å få en liste over mulige Unita-kommandolinjealternativer</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -535,8 +535,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -684,7 +684,7 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Information</source>
         <translation>Informasjon</translation>

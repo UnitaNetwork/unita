@@ -48,7 +48,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>&amp;Transactions</source>
         <translation>&amp;Транзакциялар</translation>
@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>QtumX</source>
+        <source>Unita</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -169,7 +169,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>QtumX</source>
+        <source>Unita</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -306,7 +306,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Information</source>
         <translation>Информация</translation>

@@ -62,12 +62,12 @@
         <translation>Vastaanotto-osoitteet</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat QtumX-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat Unita-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tässä ovat QtumX vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tässä ovat Unita vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -236,7 +236,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Allekirjoita viesti...</translation>
@@ -342,8 +342,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Lähetä kolikoita QtumX-osoitteeseen</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Lähetä kolikoita Unita-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -387,19 +387,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota QtumX-ikkuna</translation>
+        <translation>Näytä tai piilota Unita-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla QtumX -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Unita -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä QtumX -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Unita -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +418,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja qtumx: URIt)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja unita: URIt)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,8 +430,8 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Avaa qtumx: URI tai maksupyyntö</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Avaa unita: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -474,8 +474,8 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista QtumXin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Unitain komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -544,8 +544,8 @@
         <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittuna&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. QtumX ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. Unita ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -738,8 +738,8 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid QtumX address.</source>
-        <translation>Antamasi osoite "%1" ei ole kelvollinen QtumX-osoite.</translation>
+        <source>The entered address "%1" is not a valid Unita address.</source>
+        <translation>Antamasi osoite "%1" ei ole kelvollinen Unita-osoite.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -867,8 +867,8 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -879,7 +879,7 @@
         <translation>Noin %1 GB tietoa varastoidaan tähän hakemistoon.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the QtumX block chain.</source>
+        <source>%1 will download and store a copy of the Unita block chain.</source>
         <translation>%1 lataa ja tallentaa kopion Qtumin lohkoketjusta.</translation>
     </message>
     <message>
@@ -1064,16 +1064,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa QtumX-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Unita-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä QtumX-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Unita network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Unita-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1108,8 +1108,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä QtumX-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the Unita network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä Unita-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1211,8 +1211,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu QtumX-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Unita-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1252,7 +1252,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien QtumXien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Unitaien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1286,7 +1286,7 @@
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start qtumx: click-to-pay handler</source>
+        <source>Cannot start unita: click-to-pay handler</source>
         <translation>Qtumia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
     </message>
     <message>
@@ -1302,8 +1302,8 @@
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid QtumX address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä QtumX-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Unita address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Unita-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1400,8 +1400,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a QtumX address (e.g. %1)</source>
-        <translation>Syötä QtumX-osoite (esim. %1)</translation>
+        <source>Enter a Unita address (e.g. %1)</source>
+        <translation>Syötä Unita-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1792,8 +1792,8 @@
         <translation>&amp;Viesti:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the QtumX network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä QtumX-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unita network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Unita-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2181,8 +2181,8 @@
         <translation>Maksa vain vaadittu kulu %1 </translation>
     </message>
     <message>
-        <source>Warning: Invalid QtumX address</source>
-        <translation>Varoitus: Virheellinen QtumX-osoite </translation>
+        <source>Warning: Invalid Unita address</source>
+        <translation>Varoitus: Virheellinen Unita-osoite </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2224,8 +2224,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The QtumX address to send the payment to</source>
-        <translation>QtumX-osoite johon maksu lähetetään</translation>
+        <source>The Unita address to send the payment to</source>
+        <translation>Unita-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2268,8 +2268,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the qtumx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the QtumX network.</source>
-        <translation>Viesti joka liitettiin qtumx: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä QtumX-verkkoon.</translation>
+        <source>A message that was attached to the unita: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unita network.</source>
+        <translation>Viesti joka liitettiin unita: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Unita-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2317,8 +2317,8 @@
         <translation>Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt qtumit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
     </message>
     <message>
-        <source>The QtumX address to sign the message with</source>
-        <translation>QtumX-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Unita address to sign the message with</source>
+        <translation>Unita-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2349,8 +2349,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän QtumX-osoitteen</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Unita-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2373,12 +2373,12 @@
         <translation>Syötä vastaanottajan osoite, viesti ja allekirjoitus (varmista että kopioit rivinvaihdot, välilyönnit, sarkaimet yms. täsmälleen) alle vahvistaaksesi viestin. Varo lukemasta allekirjoitukseen enempää kuin mitä viestissä itsessään on välttääksesi man-in-the-middle -hyökkäyksiltä. Huomaa, että tämä todentaa ainoastaan allekirjoittavan vastaanottajan osoitteen, tämä ei voi todentaa minkään tapahtuman lähettäjää!</translation>
     </message>
     <message>
-        <source>The QtumX address the message was signed with</source>
-        <translation>QtumX-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Unita address the message was signed with</source>
+        <translation>Unita-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified QtumX address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä QtumX-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Unita address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Unita-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2972,7 +2972,7 @@
     </message>
 </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Asetukset:</translation>
@@ -3034,8 +3034,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX-ydin</translation>
+        <source>Unita Core</source>
+        <translation>Unita-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>

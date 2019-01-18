@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind Ihre QtumX-Adressen zum Senden von Zahlungen. Überprüfen Sie immer die Menge und die Empfangsadresse, bevor Sie Qtums senden.</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind Ihre Unita-Adressen zum Senden von Zahlungen. Überprüfen Sie immer die Menge und die Empfangsadresse, bevor Sie Qtums senden.</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind Ihre QtumX-Adressen für den Empfang von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind Ihre Unita-Adressen für den Empfang von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -224,7 +224,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Über das Netzwerk abgleichen</translation>
@@ -326,8 +326,8 @@
         <translation>Reindexiere Blöcke auf dem Datenträger...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Coins an eine QtumX-Adresse senden</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Coins an eine Unita-Adresse senden</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +350,8 @@
         <translation>Nachricht &amp;bestätigen</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +378,12 @@
         <translation>Verschlüssele die Private Keys, die zu deiner Brieftasche gehören</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Nachrichten mit Ihrer QtumX-Adresse signieren, um zu beweisen, dass sie Ihnen gehören</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Nachrichten mit Ihrer Unita-Adresse signieren, um zu beweisen, dass sie Ihnen gehören</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Überprüfen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen QtumX-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Überprüfen Sie Nachrichten, um sicherzustellen, dass sie mit den angegebenen Unita-Adressen signiert wurden</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -464,8 +464,8 @@
         <translation>Überweisung empfangen</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>Ein schwerwiegender Fehler ist aufgetreten. QtumX kann nicht mehr sicher fortfahren und beendet sich.</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>Ein schwerwiegender Fehler ist aufgetreten. Unita kann nicht mehr sicher fortfahren und beendet sich.</translation>
     </message>
 </context>
 <context>
@@ -595,8 +595,8 @@
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -648,8 +648,8 @@
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a QtumX address (e.g. %1)</source>
-        <translation>QtumX Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a Unita address (e.g. %1)</source>
+        <translation>Unita Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -868,7 +868,7 @@
     </message>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Optionen:</translation>

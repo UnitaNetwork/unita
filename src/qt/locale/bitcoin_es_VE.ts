@@ -96,7 +96,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Enviar monedas a una dirección QtumX</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Enviar monedas a una dirección Unita</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -158,8 +158,8 @@
         <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -186,12 +186,12 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Firma mensajes con tus direcciones QtumX para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones Unita para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones QtumX especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Unita especificas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -437,8 +437,8 @@
         <translation>Usa un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -682,7 +682,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:</translation>
@@ -708,8 +708,8 @@
         <translation>Correr en segundo plano como daemon y aceptar comandos</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX Core</translation>
+        <source>Unita Core</source>
+        <translation>Unita Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -62,11 +62,11 @@
         <translation>受け取りアドレス</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの QtumX アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの Unita アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your QtumX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>これらは支払いを受け取るためのビットコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QTUMS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの QtumX はすべて失われます&lt;/b&gt;!</translation>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Unita はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -236,7 +236,7 @@
     </message>
 </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>メッセージの署名... (&amp;m)</translation>
@@ -342,8 +342,8 @@
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>QtumX アドレスにコインを送る</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Unita アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -394,12 +394,12 @@
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの QtumX アドレスでメッセージに署名してください</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの Unita アドレスでメッセージに署名してください</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>指定された QtumX アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>指定された Unita アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +418,8 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>支払いを要求する (QRコードとqtumx:ではじまるURIを生成する)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>支払いを要求する (QRコードとunita:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,16 +430,16 @@
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>qtumx: URIまたは支払いリクエストを開く</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>unita: URIまたは支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to QtumX network</source>
-        <translation><numerusform>%n の QtumX ネットワークへのアクティブな接続</numerusform></translation>
+        <source>%n active connection(s) to Unita network</source>
+        <translation><numerusform>%n の Unita ネットワークへのアクティブな接続</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -482,8 +482,8 @@
         <translation>バージョンは最新です</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible QtumX command-line options</source>
-        <translation>有効な QtumX のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+        <source>Show the %1 help message to get a list with possible Unita command-line options</source>
+        <translation>有効な Unita のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -552,8 +552,8 @@
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. QtumX can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。QtumX は安全に継続することができず終了するでしょう。</translation>
+        <source>A fatal error occurred. Unita can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Unita は安全に継続することができず終了するでしょう。</translation>
     </message>
 </context>
 <context>
@@ -746,8 +746,8 @@
         <translation>送信アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid QtumX address.</source>
-        <translation>入力されたアドレス "%1" は無効な QtumX アドレスです。</translation>
+        <source>The entered address "%1" is not a valid Unita address.</source>
+        <translation>入力されたアドレス "%1" は無効な Unita アドレスです。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -875,8 +875,8 @@
         <translation>任意のデータ ディレクトリを使用:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -887,7 +887,7 @@
         <translation>おおむね%1GBのデータがこのディレクトリに保存されます。</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the QtumX block chain.</source>
+        <source>%1 will download and store a copy of the Unita block chain.</source>
         <translation>%1はQtumのブロックチェーンの複製をダウンロードし保存します。</translation>
     </message>
     <message>
@@ -1092,8 +1092,8 @@
         <translation>未検証のおつりを使用する (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の QtumX クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Unita クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1108,8 +1108,8 @@
         <translation>外部からの接続を許可する (&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でQtumXネットワークに接続する</translation>
+        <source>Connect to the Unita network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシ経由でUnitaネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1144,8 +1144,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the QtumX network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でQtumXネットワークに接続する</translation>
+        <source>Connect to the Unita network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でUnitaネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1251,8 +1251,8 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは QtumX ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Unita ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1326,8 +1326,8 @@
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start qtumx: click-to-pay handler</source>
-        <translation>QtumX を起動できません: click-to-pay handler</translation>
+        <source>Cannot start unita: click-to-pay handler</source>
+        <translation>Unita を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1342,8 +1342,8 @@
         <translation>支払いのアドレス「%1」は無効です</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid QtumX address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な QtumX アドレスあるいは不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Unita address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Unita アドレスあるいは不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1444,8 +1444,8 @@
         <translation>総額</translation>
     </message>
     <message>
-        <source>Enter a QtumX address (e.g. %1)</source>
-        <translation>QtumXアドレスを入力してください (例 %1)</translation>
+        <source>Enter a Unita address (e.g. %1)</source>
+        <translation>Unitaアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1868,8 +1868,8 @@
         <translation>メッセージ (&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the QtumX network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはQtumXネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unita network.</source>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはUnitaネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2285,8 +2285,8 @@
         <translation><numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid QtumX address</source>
-        <translation>警告：無効なQtumXアドレスです</translation>
+        <source>Warning: Invalid Unita address</source>
+        <translation>警告：無効なUnitaアドレスです</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2328,8 +2328,8 @@
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The QtumX address to send the payment to</source>
-        <translation>支払の送金先QtumXアドレス</translation>
+        <source>The Unita address to send the payment to</source>
+        <translation>支払の送金先Unitaアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2376,8 +2376,8 @@
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the qtumx: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the QtumX network.</source>
-        <translation>qtumx: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはQtumXネットワークを通して送信されるわけではありません。</translation>
+        <source>A message that was attached to the unita: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unita network.</source>
+        <translation>unita: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはUnitaネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2425,8 +2425,8 @@
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたビットコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。合意することが可能な、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The QtumX address to sign the message with</source>
-        <translation>メッセージを署名するQtumXアドレス</translation>
+        <source>The Unita address to sign the message with</source>
+        <translation>メッセージを署名するUnitaアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2457,8 +2457,8 @@
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>この QtumX アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>この Unita アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2481,12 +2481,12 @@
         <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
-        <source>The QtumX address the message was signed with</source>
-        <translation>メッセージの署名に使われたQtumXアドレス</translation>
+        <source>The Unita address the message was signed with</source>
+        <translation>メッセージの署名に使われたUnitaアドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified QtumX address</source>
-        <translation>指定された QtumX アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified Unita address</source>
+        <translation>指定された Unita アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3116,7 +3116,7 @@
     </message>
 </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>オプション:</translation>
@@ -3178,8 +3178,8 @@
         <translation>HTTPサーバを開始できませんでした。詳細はデバッグログをご確認ください。</translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>QtumX のコア</translation>
+        <source>Unita Core</source>
+        <translation>Unita のコア</translation>
     </message>
     <message>
         <source>The %s developers</source>

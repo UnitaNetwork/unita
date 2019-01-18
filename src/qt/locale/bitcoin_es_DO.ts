@@ -64,7 +64,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>QtumXGUI</name>
+    <name>UnitaGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a QtumX address</source>
-        <translation>Enviar monedas a una dirección QtumX</translation>
+        <source>Send coins to a Unita address</source>
+        <translation>Enviar monedas a una dirección Unita</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your QtumX addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones QtumX para demostrar la propiedad</translation>
+        <source>Sign messages with your Unita addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Unita para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified QtumX addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones QtumX concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Unita addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Unita concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,8 +218,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and qtumx: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de QtumX)</translation>
+        <source>Request payments (generates QR codes and unita: URIs)</source>
+        <translation>Solicitar pagos (genera codigo QR y URL's de Unita)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -230,8 +230,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a qtumx: URI or payment request</source>
-        <translation>Abrir un qtumx: URI o petición de pago</translation>
+        <source>Open a unita: URI or payment request</source>
+        <translation>Abrir un unita: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -421,8 +421,8 @@
         <translation>Utilice un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>QtumX</source>
-        <translation>QtumX</translation>
+        <source>Unita</source>
+        <translation>Unita</translation>
     </message>
     <message>
         <source>Error</source>
@@ -498,8 +498,8 @@
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically open the QtumX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente QtumX en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Unita client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Unita en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -597,8 +597,8 @@
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QtumX network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red QtumX después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Unita network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Unita después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1011,8 +1011,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this QtumX address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección QtumX</translation>
+        <source>Sign the message to prove you own this Unita address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Unita</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1031,8 +1031,8 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified QtumX address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección QtumX indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Unita address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Unita indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1086,7 +1086,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>qtumx-core</name>
+    <name>unita-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -1115,8 +1115,8 @@
 </translation>
     </message>
     <message>
-        <source>QtumX Core</source>
-        <translation>Núcleo de QtumX</translation>
+        <source>Unita Core</source>
+        <translation>Núcleo de Unita</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

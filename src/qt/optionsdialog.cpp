@@ -122,7 +122,7 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
 #if QT_VERSION >= 0x040700
     ui->thirdPartyTxUrls->setPlaceholderText("https://example.com/tx/%s");
-    ui->chainId->setPlaceholderText("qtumx");
+    ui->chainId->setPlaceholderText("unita");
 #endif
 
     ui->unit->setModel(new BitcoinUnits(this));

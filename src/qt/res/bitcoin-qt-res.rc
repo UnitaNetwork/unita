@@ -19,13 +19,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "QtumX"
-            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for QtumX)"
+            VALUE "CompanyName",        "Unita"
+            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Unita)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "qtumx-qt"
+            VALUE "InternalName",       "unita-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "qtumx-qt.exe"
+            VALUE "OriginalFilename",   "unita-qt.exe"
             VALUE "ProductName",        PACKAGE_NAME
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
