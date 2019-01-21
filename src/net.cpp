@@ -1507,7 +1507,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "QtumX " + FormatFullVersion();
+        std::string strDesc = "Unita " + FormatFullVersion();
 
         try {
             while (true) {
