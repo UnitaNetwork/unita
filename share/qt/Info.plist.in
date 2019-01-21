@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>QtumX-Qt</string>
+  <string>Unita-Qt</string>
   
   <key>CFBundleName</key>
-  <string>QtumX-Qt</string>
+  <string>Unita-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.qtumproject.QtumX-Qt</string>
+  <string>org.qtumproject.Unita-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
