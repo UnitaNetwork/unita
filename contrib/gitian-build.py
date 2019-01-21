@@ -59,21 +59,21 @@ def build():
         print('\nCompiling ' + args.version + ' Linux')
         subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'qtum='+args.commit+',cpp-eth-qtum=develop', '--url', 'qtum='+args.url, '../qtum/contrib/gitian-descriptors/gitian-linux.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-linux', '--destination', '../gitian.sigs/', '../qtum/contrib/gitian-descriptors/gitian-linux.yml'])
-        subprocess.check_call('mv build/out/qtumx-*.tar.gz build/out/src/qtumx-*.tar.gz ../qtum-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/unita-*.tar.gz build/out/src/unita-*.tar.gz ../qtum-binaries/'+args.version, shell=True)
 
     if args.windows:
         print('\nCompiling ' + args.version + ' Windows')
         subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'qtum='+args.commit+',cpp-eth-qtum=develop', '--url', 'qtum='+args.url, '../qtum/contrib/gitian-descriptors/gitian-win.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-unsigned', '--destination', '../gitian.sigs/', '../qtum/contrib/gitian-descriptors/gitian-win.yml'])
-        subprocess.check_call('mv build/out/qtumx-*-win-unsigned.tar.gz inputs/qtumx-win-unsigned.tar.gz', shell=True)
-        subprocess.check_call('mv build/out/qtumx-*.zip build/out/qtumx-*.exe ../qtum-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/unita-*-win-unsigned.tar.gz inputs/unita-win-unsigned.tar.gz', shell=True)
+        subprocess.check_call('mv build/out/unita-*.zip build/out/unita-*.exe ../qtum-binaries/'+args.version, shell=True)
 
     if args.macos:
         print('\nCompiling ' + args.version + ' MacOS')
         subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'qtum='+args.commit+',cpp-eth-qtum=develop', '--url', 'qtum='+args.url, '../qtum/contrib/gitian-descriptors/gitian-osx.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-unsigned', '--destination', '../gitian.sigs/', '../qtum/contrib/gitian-descriptors/gitian-osx.yml'])
-        subprocess.check_call('mv build/out/qtumx-*-osx-unsigned.tar.gz inputs/qtumx-osx-unsigned.tar.gz', shell=True)
-        subprocess.check_call('mv build/out/qtumx-*.tar.gz build/out/qtumx-*.dmg ../qtum-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/unita-*-osx-unsigned.tar.gz inputs/unita-osx-unsigned.tar.gz', shell=True)
+        subprocess.check_call('mv build/out/unita-*.tar.gz build/out/unita-*.dmg ../qtum-binaries/'+args.version, shell=True)
 
     os.chdir(workdir)
 
