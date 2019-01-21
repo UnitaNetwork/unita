@@ -356,7 +356,7 @@ UniValue setpoaminer(const JSONRPCRequest& request) {
     }
 
     if (!Poa::BasicPoa::getInstance()->initMiner(request.params[0].get_str(), mine_mode)) {
-    	throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid QtumX address");
+    	throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Unita address");
     }
 
     return NullUniValue;
