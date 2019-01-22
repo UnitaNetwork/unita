@@ -456,7 +456,7 @@ Ví của bạn chưa được mã hóa.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Unita command-line options</source>
-        <translation>Hiển thị tin nhắn trợ giúp %1 để có được danh sách với các tùy chọn dòng lệnh Qtum.</translation>
+        <translation>Hiển thị tin nhắn trợ giúp %1 để có được danh sách với các tùy chọn dòng lệnh Unita.</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
