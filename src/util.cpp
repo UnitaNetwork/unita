@@ -852,7 +852,7 @@ bool ArgsManager::ParseConfigUnita() {
             "poa-miner-list=USbcNgAJg1jnJiZzfSPpi5cxqxYj32vNk1,UZNsEuqXKK8q3PZ58LCfgdbppdiAuia182,UV8RcHSYBcoWTtEK7FGjCJ3RKBg35wc9o3\n"
             "poa-interval=1\n"
             "poa-timeout=3\n"
-            "default-port=33888\n"
+            "default-port=33669\n"
             "adddnsseed=seed.unita.network\n"
             "subsidy-init=60\n"
             "subsidy-halving-interval=0\n"
