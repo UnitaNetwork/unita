@@ -112,7 +112,7 @@
     </message>
     <message>
         <source>Warning: Invalid Unita address</source>
-        <translation>警告：QTUM地址无效</translation>
+        <translation>警告：Unita地址无效</translation>
     </message>
     </context>
 <context>
