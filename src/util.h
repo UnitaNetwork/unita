@@ -228,7 +228,9 @@ public:
     void ParseParameters(int argc, const char*const argv[]);
     void ReadConfigFile(const std::string& confPath);
     void ReadRemoteConfigFile(const std::string& chainId);
+    bool ParseConfigUnita();
     bool ParseConfigFile(const fs::path& path);
+    bool ParseConfigStream(std::istream& is);
 
     /**
      * Return a vector of strings of the given argument

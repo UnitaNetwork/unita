@@ -815,6 +815,12 @@ void ArgsManager::ReadRemoteConfigFile(const std::string& chainId) {
     std::string cId = chainId.empty() ? "unita" : chainId;
     gArgs.ForceSetArg("-chain", cId);
 
+    // use hard-coded config for mainnet
+    if (cId == "unita") {
+        ParseConfigUnita();
+        return;
+    }
+
     if (!CheckChainId(cId)) {
         throw boost::system::system_error(
                 boost::system::error_code(1, boost::system::system_category()),
@@ -837,9 +843,34 @@ void ArgsManager::ReadConfigFile(const std::string& confPath)
     }
 }
 
+bool ArgsManager::ParseConfigUnita() {
+    std::string configString =
+            "poa=1\n"
+            "token-name=UNT\n"
+            "genesis-input=Unita Mainnet\n"
+            "msgstart=20190101\n"
+            "poa-miner-list=USbcNgAJg1jnJiZzfSPpi5cxqxYj32vNk1,UZNsEuqXKK8q3PZ58LCfgdbppdiAuia182,UV8RcHSYBcoWTtEK7FGjCJ3RKBg35wc9o3\n"
+            "poa-interval=1\n"
+            "poa-timeout=3\n"
+            "default-port=33888\n"
+            "adddnsseed=seed.unita.network\n"
+            "subsidy-init=60\n"
+            "subsidy-halving-interval=0\n"
+            "subsidy-halving-time=0";
+    fprintf(stdout, "%s\n", configString.c_str());
+    std::istringstream streamConfig (configString);
+
+    return ParseConfigStream(streamConfig);
+}
+
 bool ArgsManager::ParseConfigFile(const fs::path& path) {
     fs::ifstream streamConfig(path);
-    if (!streamConfig.good())
+
+    return ParseConfigStream(streamConfig);
+}
+
+bool ArgsManager::ParseConfigStream(std::istream& is) {
+    if (!is.good())
         return false; // No bitcoin.conf file is OK
 
     {
@@ -847,7 +878,7 @@ bool ArgsManager::ParseConfigFile(const fs::path& path) {
         std::set<std::string> setOptions;
         setOptions.insert("*");
 
-        for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
+        for (boost::program_options::detail::config_file_iterator it(is, setOptions), end; it != end; ++it)
         {
             // Don't overwrite existing settings so command line settings override bitcoin.conf
             std::string strKey = std::string("-") + it->string_key;
