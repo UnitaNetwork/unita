@@ -857,7 +857,6 @@ bool ArgsManager::ParseConfigUnita() {
             "subsidy-init=60\n"
             "subsidy-halving-interval=0\n"
             "subsidy-halving-time=0";
-    fprintf(stdout, "%s\n", configString.c_str());
     std::istringstream streamConfig (configString);
 
     return ParseConfigStream(streamConfig);
