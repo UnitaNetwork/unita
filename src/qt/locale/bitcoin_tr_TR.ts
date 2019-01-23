@@ -303,7 +303,7 @@
     </message>
     <message>
         <source>Unita</source>
-        <translation>Qtum
+        <translation>Unita
 </translation>
     </message>
     <message>
@@ -516,7 +516,7 @@
     </message>
     <message>
         <source>Unita</source>
-        <translation>Qtum
+        <translation>Unita
 </translation>
     </message>
     <message>

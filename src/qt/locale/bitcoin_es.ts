@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Unita block chain.</source>
-        <translation>%1 descargará y almacenará una copia de la cadena de bloques de Qtum.</translation>
+        <translation>%1 descargará y almacenará una copia de la cadena de bloques de Unita.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>

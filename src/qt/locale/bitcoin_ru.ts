@@ -884,7 +884,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Unita block chain.</source>
-        <translation>%1 будет загружать и хранить копию цепочки блоков Qtum.</translation>
+        <translation>%1 будет загружать и хранить копию цепочки блоков Unita.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>

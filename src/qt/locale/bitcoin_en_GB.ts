@@ -923,7 +923,7 @@
     </message>
     <message>
         <source>Attempting to spend qtums that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Attempting to spend Qtums that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
+        <translation>Attempting to spend Unitas that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>

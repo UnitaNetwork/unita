@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your Unita addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre Unita-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Adresse des Empfängers, bevor Sie Qtums überweisen.</translation>
+        <translation>Dies sind ihre Unita-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Adresse des Empfängers, bevor Sie Unitas überweisen.</translation>
     </message>
     <message>
         <source>These are your Unita addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>

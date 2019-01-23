@@ -1600,7 +1600,7 @@ Exportar los datos en la pestaña actual a un archivo</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Unita network.</source>
-        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se mostrará cuando se abra la solicitud. Nota: El mensaje no se enviará con el pago a través de la red de Qtum.</translation>
+        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se mostrará cuando se abra la solicitud. Nota: El mensaje no se enviará con el pago a través de la red de Unita.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>

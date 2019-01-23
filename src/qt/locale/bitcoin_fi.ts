@@ -880,7 +880,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Unita block chain.</source>
-        <translation>%1 lataa ja tallentaa kopion Qtumin lohkoketjusta.</translation>
+        <translation>%1 lataa ja tallentaa kopion Unitain lohkoketjusta.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1287,7 +1287,7 @@
     </message>
     <message>
         <source>Cannot start unita: click-to-pay handler</source>
-        <translation>Qtumia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
+        <translation>Unitaia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
     </message>
     <message>
         <source>URI handling</source>

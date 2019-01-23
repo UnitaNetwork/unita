@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Unita address</source>
-        <translation>Invia monete ad un indirizzo Qtum...</translation>
+        <translation>Invia monete ad un indirizzo Unita...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>

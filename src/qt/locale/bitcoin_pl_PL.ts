@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QTUMS&lt;/b&gt;!</source>
-        <translation>Uwaga: Jeśli zaszyfrujesz portfel i utracisz do niego hasło, stracisz wszystkie swoje Qtumy. </translation>
+        <translation>Uwaga: Jeśli zaszyfrujesz portfel i utracisz do niego hasło, stracisz wszystkie swoje Unitay. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -666,7 +666,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Unita block chain.</source>
-        <translation>%1 ściągnie i przechowa kopie łańcucha bloków Qtum.</translation>
+        <translation>%1 ściągnie i przechowa kopie łańcucha bloków Unita.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -689,11 +689,11 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the qtum network, as detailed below.</source>
-        <translation>Niedawne transakcje mogą być jeszcze nie widoczne i z tego powodu saldo Twojego portfela może być nieprawidłowe. Te informacje zostaną poprawione kiedy Twój portfel skończy się synchronizować z siecią Qtum, w sposób opisany poniżej. </translation>
+        <translation>Niedawne transakcje mogą być jeszcze nie widoczne i z tego powodu saldo Twojego portfela może być nieprawidłowe. Te informacje zostaną poprawione kiedy Twój portfel skończy się synchronizować z siecią Unita, w sposób opisany poniżej. </translation>
     </message>
     <message>
         <source>Attempting to spend qtums that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Próby przesłania Qtumów które nie zostały jeszcze wyświetlone w transakcjach nie zostaną zaakceptowane przez sieć.</translation>
+        <translation>Próby przesłania Unitaów które nie zostały jeszcze wyświetlone w transakcjach nie zostaną zaakceptowane przez sieć.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>

@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Unita block chain.</source>
-        <translation>%1 descarregarà i emmagatzemarà una còpia de la cadena de blocs Qtum.</translation>
+        <translation>%1 descarregarà i emmagatzemarà una còpia de la cadena de blocs Unita.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
