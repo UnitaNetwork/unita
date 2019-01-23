@@ -709,7 +709,8 @@ int main(int argc, char *argv[])
         gArgs.ReadRemoteConfigFile(gArgs.GetArg("-chain", GetChainId()));
     } catch (const std::exception& e) {
         QMessageBox::critical(0, QObject::tr(PACKAGE_NAME),
-                              QObject::tr("Error: Cannot get remote configuration file: %1. Start Qtum mainnet.").arg(e.what()));
+                              QObject::tr("Error: Cannot get remote configuration file: %1. Start Unita mainnet by default.").arg(e.what()));
+        gArgs.ReadRemoteConfigFile("unita");
     }
 
     /// 7. Determine network (and switch to network specific options)
