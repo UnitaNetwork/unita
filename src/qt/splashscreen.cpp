@@ -64,14 +64,11 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     pixPaint.fillRect(mainRect, QColor("#030509"));
 
     // draw background
-    QRect rectBg(QPoint(-50, -50), QSize(splashSize.width() + 50, splashSize.height() + 50));
+    QRect rectBg(QPoint(0, 0), QSize(splashSize.width(), splashSize.height()));
     QPixmap bg(":/styles/app-icons/splash_bg");
     pixPaint.drawPixmap(rectBg, bg);
 
-    pixPaint.setFont(QFont(font, 32*fontFactor, QFont::Bold));
-    QRect rectTitle(QPoint(0,0), QSize(splashSize.width(), (splashSize.height() / 2)));
-    pixPaint.drawText(rectTitle, Qt::AlignHCenter | Qt::AlignBottom, titleText);
-
+    QRect rectTitle(QPoint(0,0), QSize(splashSize.width() / 2, (splashSize.height() / 2 - 15)));
     QPoint versionPoint(rectTitle.bottomLeft());
 
     // draw additional text if special network
