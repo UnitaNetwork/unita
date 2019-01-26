@@ -64,12 +64,12 @@ public:
         QString typeString = ind.data(Qt::DisplayRole).toString();
 
         QRect mainRect = option.rect;
-        QColor txColor = index.row() % 2 ? QColor("#393939") : QColor("#2e2e2e");
+        QColor txColor = index.row() % 2 ? QColor("#e6f4f6") : QColor("#f4fcfd");
         painter->fillRect(mainRect, txColor);
 
         QPen pen;
         pen.setWidth(2);
-        pen.setColor(QColor("#009ee5"));
+        pen.setColor(QColor("#67adb4"));
         painter->setPen(pen);
         bool selected = option.state & QStyle::State_Selected;
         if(selected)
@@ -77,7 +77,7 @@ public:
             painter->drawRect(mainRect.x()+1, mainRect.y()+1, mainRect.width()-2, mainRect.height()-2);
         }
 
-        QColor foreground("#dedede");
+        QColor foreground("#000000");
         painter->setPen(foreground);
 
         QRect dateRect(mainRect.left() + MARGIN, mainRect.top(), DATE_WIDTH, TX_SIZE);
@@ -127,7 +127,7 @@ public:
         }
         else
         {
-            foreground = QColor("#ffffff");
+            foreground = QColor("#43a9b8");
         }
         painter->setPen(foreground);
 
@@ -171,12 +171,12 @@ public:
         QRect mainRect = option.rect;
         mainRect.setWidth(option.rect.width());
 
-        painter->fillRect(mainRect, QColor("#383938"));
+        painter->fillRect(mainRect, QColor("#e6f4f6"));
 
         QRect hLineRect(mainRect.left(), mainRect.bottom(), mainRect.width(), 1);
-        painter->fillRect(hLineRect, QColor("#2e2e2e"));
+        painter->fillRect(hLineRect, QColor("#ffffff"));
 
-        QColor foreground("#dedede");
+        QColor foreground("#000000");
         painter->setPen(foreground);
         
         QFont font = option.font;
@@ -236,7 +236,7 @@ OverviewPage::OverviewPage(const PlatformStyle *platformStyle, QWidget *parent) 
     if (!platformStyle->getImagesOnButtons()) {
         ui->buttonAddToken->setIcon(QIcon());
     } else {
-        ui->buttonAddToken->setIcon(platformStyle->MultiStatesIcon(":/icons/add", PlatformStyle::PushButton));
+        ui->buttonAddToken->setIcon(platformStyle->MultiStatesIcon(":/icons/add", PlatformStyle::PushButton, 0xffffff));
     }
 
     // use a MultiStatesIcon for the "out of sync warning" icon

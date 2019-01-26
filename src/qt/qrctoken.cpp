@@ -45,7 +45,7 @@ public:
         }
         else
         {
-            painter->fillRect(mainRect,QColor("#383938"));
+            painter->fillRect(mainRect,QColor("#e6f4f6"));
         }
 
         QRect hLineRect(mainRect.left(), mainRect.bottom(), mainRect.width(), 1);
