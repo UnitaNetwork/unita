@@ -790,7 +790,7 @@ Push Button CSS
 --------------------------------------------*/
 QPushButton {
     color: white; 
-    background: #029ce0;
+    background: #43a9b8;
     border: none;
     border-radius: 12px;
     min-width: 5em;
@@ -798,15 +798,15 @@ QPushButton {
     margin: 0px;
 }
 QPushButton:hover{
-    background: #0188c4;
+    background: #43a9b8;
 }
 QPushButton:pressed {
-    background: #007cb3;
+    background: #6aafbe;
     color: #a4d1f0;
 }
 QPushButton::disabled {
     color: rgba(255, 255, 255, 40%);
-    background: rgba(2, 156, 224, 60%);
+    background: #6aafbe;
 }
 /*--------------------------------------------
 Scroll Area CSS

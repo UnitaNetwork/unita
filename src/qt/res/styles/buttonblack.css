@@ -2,20 +2,21 @@
 Button Black CSS
 --------------------------------------------*/
 QPushButton {
-    color: white; 
-    background: #575757;
+    color: #313131;
+    background: #f8fcfc;
     border: 1px solid #2d2d2e;
     border-radius: 12px;
     padding: 6px;
 }
 QPushButton:hover{
-    border: 1px solid #bababb;
-    color: #000000;
+    background: #43a9b8;
+    border: none;
+    color: #ffffff;
 }
 QPushButton:pressed {
-    background: #7a7a7b;
+    background: #6aafbe;
     border: none;
-    color: #c4c4c4;
+    color: #ffffff;
 }
 QPushButton::disabled {
     color: rgba(255, 255, 255, 10%);
