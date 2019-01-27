@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-#define QTUM_RELEASES "https://github.com/qtumproject/qtum-enterprise/releases"
+#define QTUM_RELEASES "https://github.com/zsrem/unitaprerelease/releases"
 
 class Version {
 
