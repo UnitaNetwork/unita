@@ -146,9 +146,9 @@ QIcon PlatformStyle::MultiStatesIcon(const QString &resourcename, StateType type
         QImage img1(resourcename);
         QImage img2(img1);
         QImage img3(img1);
-        QPixmap pix1 = MakeSingleColorPixmap(img1, color, 1);
-        QPixmap pix2 = MakeSingleColorPixmap(img2, color, 0.8);
-        QPixmap pix3 = MakeSingleColorPixmap(img3, colorAlt, 0.8);
+        QPixmap pix1 = MakeSingleColorPixmap(img1, colorAlt, 1);
+        QPixmap pix2 = MakeSingleColorPixmap(img2, color, 1);
+        QPixmap pix3 = MakeSingleColorPixmap(img3, colorAlt, 1);
         icon.addPixmap(pix1, QIcon::Normal, QIcon::On);
         icon.addPixmap(pix2, QIcon::Normal, QIcon::Off);
         icon.addPixmap(pix3, QIcon::Selected, QIcon::On);
@@ -179,7 +179,7 @@ QIcon PlatformStyle::TableColorIcon(const QString &resourcename, TableColorType 
     QImage img2(img1);
     double opacity = 1;
     double opacitySelected = 0.8;
-    int color = 0xffffff;
+    int color = 0x000000;
     int colorSelected = 0xffffff;
 
     // Choose color
@@ -223,8 +223,8 @@ void PlatformStyle::TableColor(PlatformStyle::TableColorType type, int &color, d
     // Choose color
     switch (type) {
     case Normal:
-        opacity = 0.3;
-        color = 0xffffff;
+        opacity = 0.7;
+        color = 0x000000;
         break;
     case Input:
         opacity = 0.8;

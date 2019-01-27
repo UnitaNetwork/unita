@@ -1417,10 +1417,6 @@
         <translation>无</translation>
     </message>
     <message>
-        <source>N/A</source>
-        <translation>不可用</translation>
-    </message>
-    <message>
         <source>%1 ms</source>
         <translation>%1 毫秒</translation>
     </message>
@@ -1489,10 +1485,6 @@
 </context>
 <context>
     <name>RPCConsole</name>
-    <message>
-        <source>N/A</source>
-        <translation>不可用</translation>
-    </message>
     <message>
         <source>Client version</source>
         <translation>客户端版本</translation>
@@ -2695,10 +2687,6 @@
     <message>
         <source>watch-only</source>
         <translation>观察地址(watch-only) </translation>
-    </message>
-    <message>
-        <source>(n/a)</source>
-        <translation>（不可用）</translation>
     </message>
     <message>
         <source>(no label)</source>
