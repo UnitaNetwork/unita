@@ -37,28 +37,31 @@ public:
         QString receiveAddress = index.data(TokenItemModel::SenderRole).toString();
 
         QRect mainRect = option.rect;
+        QColor foreground;
+        QColor amountColor;
 
         bool selected = option.state & QStyle::State_Selected;
         if(selected)
         {
-            painter->fillRect(mainRect,QColor("#009ee5"));
+            painter->fillRect(mainRect,QColor("#67adb4"));
+            foreground = QColor("#eeeeee");
+            amountColor = QColor("#ffffff");
         }
         else
         {
             painter->fillRect(mainRect,QColor("#e6f4f6"));
+            foreground = QColor("#535353");
+            amountColor = QColor("#313131");
         }
 
         QRect hLineRect(mainRect.left(), mainRect.bottom(), mainRect.width(), 1);
-        painter->fillRect(hLineRect, QColor("#2e2e2e"));
+        painter->fillRect(hLineRect, QColor("#ffffff"));
 
-        QColor foreground("#dddddd");
         painter->setPen(foreground);
-
         QFont font = option.font;
         font.setPointSizeF(option.font.pointSizeF() * 1.1);
         font.setBold(true);
         painter->setFont(font);
-        QColor amountColor("#ffffff");
         painter->setPen(amountColor);
 
         QFontMetrics fmName(option.font);
