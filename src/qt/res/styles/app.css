@@ -105,8 +105,8 @@ QAbstractItemView#autoCompleterPopup::item{
     padding-left: 10px;
 }
 QAbstractItemView#autoCompleterPopup::item:selected {
-    background-color: #545454;
-    color: #8c8c8c;
+    background-color: #67adb4;
+    color: #ffffff;
     padding: 4px;
 }
 /*--------------------------------------------
@@ -593,7 +593,7 @@ Tab Bar CSS
 --------------------------------------------*/
 QTabBar::tab {
     background-color: transparent;
-    color: rgba(255, 255, 255, 60%);
+    color: rgba(0, 0, 0, 70%);
     padding: 10px 15px;
     border-width: 0px;
     border-radius: 0px;
@@ -601,15 +601,15 @@ QTabBar::tab {
     border-bottom: 5px solid transparent;
 }
 QTabBar::tab:selected {
-    color: white;
-    border-bottom: 5px solid rgba(0, 138, 200, 40%);
+    color: #000000;
+    border-bottom: 5px solid #67adb4;
 }
 QTabBar::tab:hover:!selected {
-    color: rgba(255, 255, 255, 85%);
-    border-bottom: 5px solid rgba(0, 138, 200, 90%);
+    color: rgba(0, 0, 0, 85%);
+    border-bottom: 5px solid #43a9b8;
 }
 QTabBar::tab:disabled {
-    color: rgba(255, 255, 255, 30%);
+    color: rgba(0, 0, 0, 30%);
 }
 QTabWidget::pane {
     border: none;

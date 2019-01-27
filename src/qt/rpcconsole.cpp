@@ -475,7 +475,7 @@ RPCConsole::RPCConsole(const PlatformStyle *_platformStyle, QWidget *parent) :
     ui->openDebugLogfileButton->setToolTip(ui->openDebugLogfileButton->toolTip().arg(tr(PACKAGE_NAME)));
 
     if (platformStyle->getImagesOnButtons()) {
-        ui->openDebugLogfileButton->setIcon(platformStyle->MultiStatesIcon(":/icons/export", PlatformStyle::PushButton));
+        ui->openDebugLogfileButton->setIcon(platformStyle->MultiStatesIcon(":/icons/open", PlatformStyle::PushButton, 0xffffff));
     }
     ui->clearButton->setIcon(platformStyle->MultiStatesIcon(":/icons/remove", PlatformStyle::PushButton));
     ui->fontBiggerButton->setIcon(platformStyle->MultiStatesIcon(":/icons/fontbigger", PlatformStyle::PushButton));
