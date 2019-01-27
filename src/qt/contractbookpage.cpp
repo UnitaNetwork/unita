@@ -30,7 +30,7 @@ ContractBookPage::ContractBookPage(const PlatformStyle *platformStyle, QWidget *
         ui->newContractInfo->setIcon(platformStyle->MultiStatesIcon(":/icons/add", PlatformStyle::PushButton, 0x5a5a5d));
         ui->copyAddress->setIcon(platformStyle->MultiStatesIcon(":/icons/editcopy", PlatformStyle::PushButton, 0x5a5a5d));
         ui->deleteContractInfo->setIcon(platformStyle->MultiStatesIcon(":/icons/remove", PlatformStyle::PushButton, 0x5a5a5d));
-        ui->exportButton->setIcon(platformStyle->MultiStatesIcon(":/icons/export"));
+        ui->exportButton->setIcon(platformStyle->MultiStatesIcon(":/icons/export", PlatformStyle::PushButton, 0xffffff));
     }
 
     SetObjectStyleSheet(ui->newContractInfo, StyleSheetNames::ButtonWhite);
