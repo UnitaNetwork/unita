@@ -179,7 +179,7 @@ QIcon PlatformStyle::TableColorIcon(const QString &resourcename, TableColorType 
     QImage img2(img1);
     double opacity = 1;
     double opacitySelected = 0.8;
-    int color = 0xffffff;
+    int color = 0x000000;
     int colorSelected = 0xffffff;
 
     // Choose color
@@ -223,8 +223,8 @@ void PlatformStyle::TableColor(PlatformStyle::TableColorType type, int &color, d
     // Choose color
     switch (type) {
     case Normal:
-        opacity = 0.3;
-        color = 0xffffff;
+        opacity = 0.7;
+        color = 0x000000;
         break;
     case Input:
         opacity = 0.8;

@@ -77,7 +77,7 @@ public:
             painter->drawRect(mainRect.x()+1, mainRect.y()+1, mainRect.width()-2, mainRect.height()-2);
         }
 
-        QColor foreground("#000000");
+        QColor foreground("#434343");
         painter->setPen(foreground);
 
         QRect dateRect(mainRect.left() + MARGIN, mainRect.top(), DATE_WIDTH, TX_SIZE);
