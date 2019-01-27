@@ -78,7 +78,7 @@ QLineEdit{
     border: 1px solid #5a5a5d;
     border-radius: 12px;
     background-color: #ffffff;
-    color: #8c8c8c;
+    color: #000000;
     padding: 4px;
 }
 QLineEdit::hover:!read-only{
@@ -123,7 +123,7 @@ QComboBox {
     border: 1px solid #5a5a5d;
     border-radius: 12px;
     background-color: #ffffff;
-    color: #8c8c8c;
+    color: #000000;
     padding: 4px;
     padding-left: 10px;
     padding-right: 8px;
@@ -348,13 +348,13 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
 }
 QScrollBar:vertical {
     border-radius: 0px;
-    background: #ffffff;
+    background: #e6f4f6;
     width: 16px;
     padding: 5px 4px;
 }
 QScrollBar::handle:vertical {
     border: none;
-    background: #ffffff;
+    background: #67adb4;
     border-radius: 4px;
     min-height: 35px;
 }
@@ -365,13 +365,13 @@ QTextEdit QScrollBar:vertical {
     border-radius: 0px;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
-    background: #ffffff;
+    background: #e6f4f6;
     width: 19px;
     padding: 10px 4px;
 }
 QTextEdit QScrollBar::handle:vertical {
     border: none;
-    background: #ffffff;
+    background: #67adb4;
     border-radius: 5px;
     min-height: 30px;
 }
@@ -382,13 +382,13 @@ QPlainTextEdit QScrollBar:vertical {
     border-radius: 0px;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
-    background: #ffffff;
+    background: #e6f4f6;
     width: 19px;
     padding: 10px 4px;
 }
 QPlainTextEdit QScrollBar::handle:vertical {
     border: none;
-    background: #ffffff;
+    background: #67adb4;
     border-radius: 5px;
     min-height: 30px;
 }
@@ -397,13 +397,13 @@ QPlainTextEdit QScrollBar::handle:vertical:disabled {
 }
 QComboBox QScrollBar:vertical {
     border-radius: 7px;
-    background: #ffffff;
+    background: #e6f4f6;
     width: 16px;
     padding: 5px 4px;
 }
 QComboBox QScrollBar::handle:vertical {
     border: none;
-    background: #ffffff;
+    background: #67adb4;
     border-radius: 4px;
     min-height: 35px;
 }
@@ -433,13 +433,13 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 }
 QScrollBar:horizontal {
     border-radius: 0px;
-    background: #ffffff;
+    background: #e6f4f6;
     height: 16px;
     padding: 4px 5px;
 }
 QScrollBar::handle:horizontal {
     border: none;
-    background: #ffffff;
+    background: #67adb4;
     border-radius: 4px;
     min-width: 30px;
 }
