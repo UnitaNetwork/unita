@@ -122,9 +122,9 @@ contrib/devtools/split-debug.sh
 src/unita-cli
 src/unita-tx
 src/unitad
-src/bench/bench_qtum
+src/bench/bench_unita
 src/qt/unita-qt
-src/qt/test/test_qtum-qt
+src/qt/test/test_unita-qt
 src/test/buildenv.py
-src/test/test_qtum
-src/test/test_qtum_fuzzy
+src/test/test_unita
+src/test/test_unita_fuzzy
