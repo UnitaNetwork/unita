@@ -221,6 +221,9 @@ static std::string RequestMethodString(HTTPRequest::RequestMethod m)
     case HTTPRequest::PUT:
         return "PUT";
         break;
+    case HTTPRequest::OPTIONS:
+        return "OPTIONS";
+        break;
     default:
         return "unknown";
     }
@@ -251,11 +254,24 @@ static void http_request_cb(struct evhttp_request* req, void* arg)
     }
 
     // origin-based allow check
-    if (rpc_allow_origins.size() != 0) {
+    if (gArgs.IsArgSet("-rpcalloworigin")) {
         std::pair<bool, std::string> originHeader = hreq->GetHeader("Origin");
-        if (originHeader.first && OriginAllowed(originHeader.second)) {
-            hreq->WriteHeader("access-control-allow-origin", originHeader.second);
-            hreq->WriteHeader("access-control-allow-credentials", "true");
+        if (originHeader.first) {
+            if (OriginAllowed("*")) {
+                hreq->WriteHeader("Access-Control-Allow-Origin", "*");
+            } else if (OriginAllowed(originHeader.second)) {
+                hreq->WriteHeader("Access-Control-Allow-Origin", originHeader.second);
+            } else {
+                hreq->WriteReply(HTTP_BADREQUEST, "CORS is not allowed for " + originHeader.second);
+                return;
+            }
+            hreq->WriteHeader("Access-Control-Allow-Credentials", "true");
+            if (hreq->GetRequestMethod() == HTTPRequest::OPTIONS) {
+                hreq->WriteHeader("Access-Control-Allow-Methods", "POST,OPTIONS");
+                hreq->WriteHeader("Access-Control-Allow-Headers", "content-type,accept,origin,authorization");
+                hreq->WriteReply(HTTP_NOCONTENT);
+                return;
+            }
         }
     }
 
@@ -378,7 +394,8 @@ bool InitHTTPServer()
     if (!InitHTTPAllowList())
         return false;
 
-    InitOriginAllowSet();
+   if (gArgs.IsArgSet("-rpcalloworigin"))
+       InitOriginAllowSet();
 
     if (gArgs.GetBoolArg("-rpcssl", false)) {
         uiInterface.ThreadSafeMessageBox(
@@ -415,6 +432,14 @@ bool InitHTTPServer()
     evhttp_set_timeout(http, gArgs.GetArg("-rpcservertimeout", DEFAULT_HTTP_SERVER_TIMEOUT));
     evhttp_set_max_headers_size(http, MAX_HEADERS_SIZE);
     evhttp_set_max_body_size(http, MAX_SIZE);
+    evhttp_set_allowed_methods(
+            http,
+            EVHTTP_REQ_GET
+            | EVHTTP_REQ_POST
+            | EVHTTP_REQ_HEAD
+            | EVHTTP_REQ_PUT
+            | EVHTTP_REQ_DELETE
+            | EVHTTP_REQ_OPTIONS);
     evhttp_set_gencb(http, http_request_cb, nullptr);
 
     if (!HTTPBindAddresses(http)) {
@@ -780,6 +805,9 @@ HTTPRequest::RequestMethod HTTPRequest::GetRequestMethod()
         break;
     case EVHTTP_REQ_PUT:
         return PUT;
+        break;
+    case EVHTTP_REQ_OPTIONS:
+        return OPTIONS;
         break;
     default:
         return UNKNOWN;
