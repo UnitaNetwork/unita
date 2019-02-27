@@ -142,6 +142,8 @@ static struct event_base* eventBase = nullptr;
 struct evhttp* eventHTTP = nullptr;
 //! List of subnets to allow RPC connections from
 static std::vector<CSubNet> rpc_allow_subnets;
+//! List of origins to allow RPC connections from
+static std::set<std::string> rpc_allow_origins;
 //! Work queue for handling longer requests off the event loop thread
 static WorkQueue<HTTPClosure>* workQueue = nullptr;
 //! Handlers for (sub)paths
@@ -188,6 +190,21 @@ static bool InitHTTPAllowList()
     return true;
 }
 
+/** Check if a origin is allowed to access the HTTP server */
+static bool OriginAllowed(const std::string& origin) {
+    return rpc_allow_origins.count(origin);
+}
+
+/** Initialize Origin set for HTTP server */
+static void InitOriginAllowSet() {
+    std::string strAllowed;
+    for (const std::string& strAllow : gArgs.GetArgs("-rpcalloworigin")) {
+        rpc_allow_origins.insert(strAllow);
+        strAllowed += strAllow + " ";
+    }
+    LogPrint(BCLog::HTTP, "Allowing HTTP connections from origins: %s\n", strAllowed);
+}
+
 /** HTTP request method as string - use for logging only */
 static std::string RequestMethodString(HTTPRequest::RequestMethod m)
 {
@@ -231,6 +248,15 @@ static void http_request_cb(struct evhttp_request* req, void* arg)
     if (!ClientAllowed(hreq->GetPeer())) {
         hreq->WriteReply(HTTP_FORBIDDEN);
         return;
+    }
+
+    // origin-based allow check
+    if (rpc_allow_origins.size() != 0) {
+        std::pair<bool, std::string> originHeader = hreq->GetHeader("Origin");
+        if (originHeader.first && OriginAllowed(originHeader.second)) {
+            hreq->WriteHeader("access-control-allow-origin", originHeader.second);
+            hreq->WriteHeader("access-control-allow-credentials", "true");
+        }
     }
 
     // Early reject unknown HTTP methods
@@ -351,6 +377,8 @@ bool InitHTTPServer()
 {
     if (!InitHTTPAllowList())
         return false;
+
+    InitOriginAllowSet();
 
     if (gArgs.GetBoolArg("-rpcssl", false)) {
         uiInterface.ThreadSafeMessageBox(
