@@ -39,7 +39,7 @@ bool BitcoinUnits::valid(int unit)
 
 QString BitcoinUnits::longName(int unit)
 {
-    static std::string tokenName = gArgs.GetArg("-token-name", "QTUM");
+    static std::string tokenName = gArgs.GetArg("-token-name", "UNT");
     switch(unit)
     {
     case BTC: return QString::fromStdString(tokenName);
