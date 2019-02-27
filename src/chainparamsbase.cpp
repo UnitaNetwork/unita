@@ -112,7 +112,7 @@ std::string ChainNameFromCommandLine()
 {
     bool fRegTest = gArgs.GetBoolArg("-regtest", false);
     bool fTestNet = gArgs.GetBoolArg("-testnet", false);
-    bool fPoa = gArgs.GetBoolArg("-poa", false);
+    bool fPoa = gArgs.GetBoolArg("-poa", true);
 
     if (fTestNet && fRegTest)
         throw std::runtime_error("Invalid combination of -regtest and -testnet.");

@@ -401,11 +401,11 @@ class CPoaParams : public CChainParams
 public:
 	CPoaParams()
     {
-        strNetworkID = gArgs.GetArg("-chain", "");
+        strNetworkID = gArgs.GetArg("-chain", "unita");
         assert(strNetworkID.size() != 0);
-        consensus.nSubsidyInit = atoi(gArgs.GetArg("-subsidy-init", "0"));
+        consensus.nSubsidyInit = atoi(gArgs.GetArg("-subsidy-init", "60"));
         consensus.nSubsidyHalvingInterval = atoi(gArgs.GetArg("-subsidy-halving-interval", "0"));
-        consensus.nSubsidyHalvingTime = atoi(gArgs.GetArg("-subsidy-halving-time", "7"));
+        consensus.nSubsidyHalvingTime = atoi(gArgs.GetArg("-subsidy-halving-time", "0"));
         consensus.BIP34Height = 0;
         consensus.BIP65Height = 0;
         consensus.BIP66Height = 0;
@@ -435,18 +435,18 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00");
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        std::vector<unsigned char> msgstart = ParseHex(gArgs.GetArg("-msgstart", ""));
+        std::vector<unsigned char> msgstart = ParseHex(gArgs.GetArg("-msgstart", "20190101"));
         assert(msgstart.size() == 4);
         for (size_t i = 0; i != 4; ++i) {
         	pchMessageStart[i] = msgstart[i];
         }
 
-        nDefaultPort = gArgs.GetArg("-default-port", 0);
+        nDefaultPort = gArgs.GetArg("-default-port", 33669);
         assert(nDefaultPort > 0);
         nPruneAfterHeight = 100000;
 
         const char* pszTimestamp = nullptr;
-        std::string genesisInput = gArgs.GetArg("-genesis-input", "");
+        std::string genesisInput = gArgs.GetArg("-genesis-input", "Unita Mainnet");
         if (gArgs.IsArgSet("-genesis-input")) {
             pszTimestamp = genesisInput.c_str();
         }

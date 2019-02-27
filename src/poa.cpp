@@ -15,7 +15,7 @@
 namespace Poa {
 
 bool isPoaChain() {
-	static bool isPoaChain = gArgs.GetBoolArg("-poa", false);
+	static bool isPoaChain = gArgs.GetBoolArg("-poa", true);
 	return isPoaChain;
 }
 
