@@ -435,7 +435,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x00");
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        std::vector<unsigned char> msgstart = ParseHex(gArgs.GetArg("-msgstart", "20190101"));
+        std::vector<unsigned char> msgstart = ParseHex(gArgs.GetArg("-msgstart", "20190314"));
         assert(msgstart.size() == 4);
         for (size_t i = 0; i != 4; ++i) {
         	pchMessageStart[i] = msgstart[i];
@@ -450,7 +450,7 @@ public:
         if (gArgs.IsArgSet("-genesis-input")) {
             pszTimestamp = genesisInput.c_str();
         }
-        genesis = CreateGenesisBlock(1504695029, 8026361, 0x1f00ffff, 1, 50 * COIN, pszTimestamp);
+        genesis = CreateGenesisBlock(1552540440, 8026361, 0x1f00ffff, 1, 50 * COIN, pszTimestamp);
         genesis.hashStateRoot = uint256(h256Touint(dev::h256("831c8f57fabdd57f92d9aa02ae817d58036d6895c91f58654688c4df56ab0fb2")));
         consensus.hashGenesisBlock = genesis.GetHash();
         consensus.BIP34Hash = consensus.hashGenesisBlock;

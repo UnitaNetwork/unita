@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-#define QTUM_RELEASES "https://github.com/zsrem/unitaprerelease/releases"
+#define QTUM_RELEASES "https://github.com/UnitaNetwork/unita/releases"
 
 class Version {
 
