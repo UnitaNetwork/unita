@@ -100,3 +100,6 @@ make
 # or the Qt GUI
 ./src/qt/unita-qt
 ```
+
+# License
+Qtum is GPLv3 licensed.
