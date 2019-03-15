@@ -102,4 +102,4 @@ make
 ```
 
 # License
-Qtum is GPLv3 licensed.
+Unita is GPLv3 licensed.
